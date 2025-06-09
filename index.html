@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link
-      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-      rel="stylesheet"
-    />
-
-    <meta name="theme-color" content="#000000" />
-    <title>My First Test Page</title>
-    <p>some text content</p>
+    <title>Project Test Website</title>
+	<link rel="stylesheet" href="css/style.css">
+    
 </head>
-
-
-
-
-
-
-
 <body>
+    <header>
+        <h1>Welcome to the Project - Home</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+		<a href="Projects.html">Projects</a>
+    </nav>
+
+    <main>
+        <h2>About This Site</h2>
+        <p>Enter data here, possible crud for logging into the application</p>
+    
     <a onclick="BasicCalculatorNumberOne()">
         <button>One</button>
     </a> 
-
+    
     <a onclick="BasicCalculatorNumberTwo()">
         <button>Two</button>
     </a> 
-
+    
     <h6>Adding a boiler plate inside of HTML, 
         you may need to do ! on the first line of code
     With all of the information on the code editor gone.</h6>
@@ -47,6 +48,11 @@
                 document.getElementById("NumberTwo").innerHTML = Two
             };
         </script>
+	</main>
+
+    <footer>
+        <p>TEST.</p>
+    </footer>
 
 </body>
 </html>
