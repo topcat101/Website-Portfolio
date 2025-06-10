@@ -48,11 +48,16 @@ body {
             bottom: 0;
         }
 
-        /* Responsive nav links stack on smaller screens */
-        @media (max-width: 600px) {
-            nav a {
-                float: none;
-                width: 100%;
-                text-align: left;
-            }
+        label {
+            display: block;
+            width: 90px;
         }
+
+        input {
+            padding: 8px;
+            margin: 12px;
+            width: 200px;
+        }
+
+
+        
