@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Test Website</title>
+	{% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Project - Home</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+		<a href="Projects.html">Projects</a>
+        <a href="Login.html">Login</a>
+        <a href="SignUp.html">Sign Up</a>
+    </nav>
+
+    <main>
+        <h2>About This Site</h2>
+        <p>Enter data here, possible crud for logging into the application</p>
+    
+    <a onclick="BasicCalculatorNumberOne()">
+        <button>One</button>
+    </a> 
+    
+    <a onclick="BasicCalculatorNumberTwo()">
+        <button>Two</button>
+    </a> 
+    
+    <h6>Adding a boiler plate inside of HTML, 
+        you may need to do ! on the first line of code
+    With all of the information on the code editor gone.</h6>
+
+        <p id = "NumberOne" > Please click the above buttons!  </p> 
+        <p id = "NumberTwo" > _____________ </p>
+
+        
+        <script>
+            function BasicCalculatorNumberOne(One = 1){
+                document.getElementById("NumberOne").innerHTML = One
+            };
+
+            function BasicCalculatorNumberTwo(Two = 2){
+                document.getElementById("NumberTwo").innerHTML = Two
+            };
+        </script>
+	</main>
+
+    <footer>
+        <p>Home</p>
+    </footer>
+
+</body>
+</html>
