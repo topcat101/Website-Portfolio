@@ -10,16 +10,16 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to the Project - About</h1>
+        <h1>Welcome to the Project - SignUp</h1>
     </header>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="Contact.html">Contact</a>
-		<a href="Projects.html">Projects</a>
-        <a href="Login.html">Login</a>
-        <a href="SignUp.html">Sign Up</a>
+        <a href="Home">Home</a>
+        <a href="About">About</a>
+        <a href="Contact">Contact</a>
+		<a href="Projects">Projects</a>
+        <a href="Login">Login</a>
+        <a href="SignUp">Sign Up</a>
     </nav>
 
     <main>
@@ -28,7 +28,7 @@
     </main>
 
     <footer>
-        <p>About</p>
+        <p>Sign Up</p>
     </footer>
 
 </body>
