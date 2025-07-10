@@ -11,9 +11,12 @@
 - LoadBalancer (Why I have used, and showing how it is used)
 - Also talk about the use on why I have used this method over Vertical scaling
 - AWS provides 3 types of load balancers:
-Application Load Balancer (ALB) - Mostly used in industry
-Network Load Balancer (NLB)
-Classic Load Balancers (CLB)
++ Application Load Balancer (ALB) - Mostly used in industry
+
++ Network Load Balancer (NLB)
+
++ Classic Load Balancers (CLB)
+
 Resources to assist:
 https://medium.com/@shivambhadani_/aws-part-3-horizontal-scaling-and-load-balancer-223d005ef11e
 https://www.digitalocean.com/resources/articles/horizontal-scaling-vs-vertical-scaling
