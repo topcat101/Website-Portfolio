@@ -6,3 +6,4 @@ Read-Host "Press any key to continue"
 git add .
 git commit -am "$($commit_name)"
 git status
+git push 
