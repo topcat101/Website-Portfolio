@@ -10,7 +10,7 @@
 - Horizontal scaling (Talk about it and the loadBalancer in place) - "Why I have used this"
 - LoadBalancer (Why I have used, and showing how it is used)
 - Also talk about the use on why I have used this method over Vertical scaling
-- AWS provides 3 types of load balancers:
+- AWS provides 3 types of load balancers(Round robin):
 + Application Load Balancer (ALB) - Mostly used in industry
 
 + Network Load Balancer (NLB)
