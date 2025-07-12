@@ -17,6 +17,8 @@
 
 + Classic Load Balancers (CLB)
 
+- Talk about redudancy and the reason I have went this direction
+
 Resources to assist:
 https://medium.com/@shivambhadani_/aws-part-3-horizontal-scaling-and-load-balancer-223d005ef11e
 https://www.digitalocean.com/resources/articles/horizontal-scaling-vs-vertical-scaling
