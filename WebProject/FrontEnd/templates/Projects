@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Test Website</title>
+	{% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Project - Projects</h1>
+    </header>
+
+    <nav>
+        <a href="Home">Home</a>
+        <a href="About">About</a>
+        <a href="Contact">Contact</a>
+		<a href="Projects">Projects</a>
+        <a href="Login">Login</a>
+        <a href="SignUp">Sign Up</a>
+    </nav>
+
+    <main>
+        <h2>About This Site</h2>
+        <p>This is a basic HTML template to get you started with your website.</p>
+    </main>
+
+    <footer>
+        <p>Projects</p>
+    </footer>
+
+</body>
+</html>
