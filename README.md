@@ -36,3 +36,7 @@ Notes for me:
 - Site map
 - Use cases.
 - Restful API (Send data to backend)
+
+
+
+## Still a work in progress, just thinking of other ideas to add to make this more complex and fun overall
