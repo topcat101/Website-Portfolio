@@ -36,6 +36,7 @@ Notes for me:
 - Site map
 - Use cases.
 - Restful API (Send data to backend)
+- Workflow for configuration
 
 
 
