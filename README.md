@@ -23,6 +23,7 @@ Resources to assist:
 https://medium.com/@shivambhadani_/aws-part-3-horizontal-scaling-and-load-balancer-223d005ef11e
 https://www.digitalocean.com/resources/articles/horizontal-scaling-vs-vertical-scaling
 
+
 - vertical scaling (Talk about it)
 Hardware (Memory, Ram, Networkload, Storage exspansion
     
@@ -41,3 +42,17 @@ Notes for me:
 
 
 ## Still a work in progress, just thinking of other ideas to add to make this more complex and fun overall
+
+
+
+
+# References/ Technologies/ Writeups/ Guides used to assist:
+
+
+Technologies:
+- ChatGPT and Copilot to write part of the code, and understand what is needed
+
+Guides:
+- https://www.youtube.com/watch?v=c-QsfbznSXI&t=3609s
+ 
+## 
