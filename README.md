@@ -1,5 +1,7 @@
 # Website creation documentation (Portfolio)
 
+My main aim is to understand the backend/ technologies used and why. I am not trying to building to become a frontend developer, just understand the tech stacks used.
+
 # Scenario base/ Use case
 
 # Description
