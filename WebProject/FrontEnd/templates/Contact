@@ -10,7 +10,8 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to the Project - Contact</h1>
+        <h1 style="text-align: center;">Welcome to my portfolio</h1>
+        <h2 style="text-align: center;">Contact</h2>
     </header>
 
     <nav>

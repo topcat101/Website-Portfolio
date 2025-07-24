@@ -10,9 +10,9 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to the Project - Login</h1>
+        <h1 style="text-align: center;">Welcome to my portfolio</h1>
+        <h2 style="text-align: center;">Login</h2>
     </header>
-
     <nav>
         <a href="Home">Home</a>
         <a href="About">About</a>
