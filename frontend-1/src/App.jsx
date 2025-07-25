@@ -5,7 +5,7 @@ import Register from "./pages/Register";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import ProtectedRoute from "./components/ProtectedRoute";
-import Personal_Workspace from './pages/Personal_Workspace';
+import Personal_Workspace from "./pages/Personal_Workspace";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
@@ -26,6 +26,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route
+          path="/Personal_Workspace"
           element={
             <ProtectedRoute>
               <Personal_Workspace />

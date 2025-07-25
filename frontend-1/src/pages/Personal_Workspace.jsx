@@ -1,9 +1,8 @@
 function Personal_Workspace() {
-    return 
-    <div>
+    return  <div>
             <h1>Home</h1>
             <p>This is your personal workspace</p>
-    </div>
+            </div>
     }
 
 export default Personal_Workspace;

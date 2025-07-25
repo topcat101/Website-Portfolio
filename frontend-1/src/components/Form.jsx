@@ -21,7 +21,7 @@ function Form({ route, method }) {
             if (method === "login") {
                 localStorage.setItem(ACCESS_TOKEN, res.data.access);
                 localStorage.setItem(REFRESH_TOKEN, res.data.refresh);
-                navigate("/")
+                navigate("/Personal_Workspace");
             } else {
                 navigate("/login")
             }
@@ -34,7 +34,10 @@ function Form({ route, method }) {
 
     return (
         <form onSubmit={handleSubmit} className="form-container">
-            <h1>{name}</h1>
+        <header>
+                <h1 style={{ textAlign: "center" }}>Welcome to my portfolio</h1>
+                <h2 style={{ textAlign: "center" }}>{name}</h2>
+        </header>
             <input
                 className="form-input"
                 type="text"
