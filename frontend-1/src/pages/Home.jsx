@@ -1,6 +1,5 @@
 import React from "react";
-import "../style.css";
-
+import "../styles/main_Content.css";
 function Home() {
     return (
         <div>
@@ -20,7 +19,20 @@ function Home() {
 
             <main>
                 <h2>About This Site</h2>
-                <p>Enter data here, possible crud for logging into the application</p>
+                <p>
+                    Showing the blogging, what I am working on
+                    and what I am doing in my spare time.
+                    This is a personal portfolio website to showcase my work and projects.
+
+                    It includes a personal workspace where I can manage my projects and tasks.
+                    The site is built with React and uses a REST API for authentication and data management.
+
+                    The personal workspace allows me to create, read, update, and delete projects.
+                    It also includes a login and registration system for user authentication. 
+
+                    This feature is still to come, but it will allow me to manage my projects more effectively.
+                    The site is designed to be responsive and user-friendly, with a clean and modern interface.
+                </p>
 
                 <h6>
                     Adding a boiler plate inside of HTML, you may need to do ! on the first line of code
